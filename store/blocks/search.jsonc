@@ -9,6 +9,7 @@
     "children":[
       "breadcrumb.search",
       "search-title.v2",
+      "flex-layout.row#top",
       "flex-layout.row#results",
       "search-fetch-previous",
       "search-fetch-more"
@@ -39,7 +40,6 @@
   },
   "flex-layout.col#search":{
     "children":[
-      "flex-layout.row#top",
       "search-content"
     ],
     "props":{
@@ -54,14 +54,7 @@
   },
   "product-summary.shelf": {
     "children": [
-      "product-summary-image",
-      "product-summary-add-to-list-button",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-price",
-      "product-identifier.summary",
-      "product-summary-buy-button"
+      "product-summary-sku-selector"
     ]
   }
 
