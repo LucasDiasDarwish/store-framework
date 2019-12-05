@@ -4,11 +4,6 @@
       "flex-layout.row#main"
     ]
   },
-  "flex-layout.row#product": {
-    "children": [
-      "product-price"
-    ]
-  },
   "flex-layout.row#main": { 
     "props": { 
       "marginTop": 6
