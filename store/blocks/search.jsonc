@@ -5,16 +5,16 @@
   "search-result-layout": {
     "blocks": ["search-result-layout.desktop"]
   },
-  "search-result-layout.desktop":{
-    "children":[
+  "search-result-layout.desktop": {
+    "children": [
       "breadcrumb.search",
       "search-title.v2",
       "flex-layout.row#top",
-      "flex-layout.row#results",
       "search-fetch-previous",
+      "flex-layout.row#results",
       "search-fetch-more"
     ],
-    "props":{
+    "props": {
       "pagination": "show-more"
     }
   },
@@ -51,11 +51,6 @@
   },
   "gallery": {
     "blocks": ["product-summary.shelf"]
-  },
-  "product-summary.shelf": {
-    "children": [
-      "product-summary-sku-selector"
-    ]
   }
 
 }
